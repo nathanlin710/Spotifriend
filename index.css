@@ -21,9 +21,14 @@ nav a {
     margin-left: 35px;
     font-weight: bold;
 }
+nav a:hover {
+    transform: scale(1.1);
+    color: gray;
+}
 header {
-    height: 100vh;
-    background-color: #3366ff;
+    height: 100vh;    
+
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
     text-align: center;
     position: relative;
     display: flex;
