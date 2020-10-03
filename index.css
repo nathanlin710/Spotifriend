@@ -1,5 +1,7 @@
-body {
+html, body {
     font-family: inherit;
+    margin:0;
+    padding:0;
 }
 nav {
     background-color: black;
@@ -77,3 +79,6 @@ section {
     justify-content: center;
     text-decoration: none;
   }
+#bar {
+    transform: scale(1, 1.50);
+}
