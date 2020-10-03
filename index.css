@@ -22,9 +22,10 @@ nav a {
     font-weight: bold;
 }
 nav a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: gray;
 }
+
 header {
     height: 100vh;    
     background: linear-gradient(to right, #a1d3b0, #f6f1d3);
