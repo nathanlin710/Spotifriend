@@ -7,17 +7,18 @@ nav {
     background-color: black;
     display: flex;
     justify-content: flex-end;
-    padding: 25px;
+    padding: 23px;
     position: fixed;
     top: 0;
     z-index: 100;
     right: 0;
     left: 0;
+    overflow: hidden;
 }
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     margin-left: 35px;
     font-weight: bold;
 }
