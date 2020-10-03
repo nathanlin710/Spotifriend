@@ -8,6 +8,7 @@
  */
 
 var express = require('express'); // Express web server framework
+var https = require('https');
 var request = require('request'); // "Request" library
 var cors = require('cors');
 var querystring = require('querystring');
@@ -15,7 +16,18 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '6484b8d0c92b492dbb82ee07222e4002'; // Your client id
 var client_secret = 'bfe2423680c54689ab427eb99d4229da'; // Your secret
-var redirect_uri = 'http://localhost:8888/callback'; // Your redirect uri
+var redirect_uri = 'https://localhost:8888/callback'; // Your redirect uri
+
+var fs = require('fs');
+
+var sslkey = fs.readFileSync('selfsigned.key');
+var sslcert = fs.readFileSync('selfsigned.crt')
+
+var options = {
+    key: sslkey,
+    cert: sslcert
+};
+
 
 /**
  * Generates a random string containing numbers and letters
@@ -143,5 +155,6 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 8888');
-app.listen(8888);
+
+https.createServer(options, express).listen(443);
+console.log('Listening on 443');
