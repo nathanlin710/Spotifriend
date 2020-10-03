@@ -13,7 +13,6 @@ nav {
     z-index: 100;
     right: 0;
     left: 0;
-    overflow: hidden;
 }
 nav a {
     text-decoration: none;
@@ -43,16 +42,29 @@ header {
 }
 header h1 {
     color: #80ff80;
-    font-size: 170px;
-    margin-bottom: 0;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-bottom: -230;
+    font-style: italic;
+    bottom: 30px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+header h2 {
+    color: #80ff80;
+    font-size: 175px;
+    font-variant: small-caps;
     font-weight: bold;
-    top: 0;
+    position:relative;
+    bottom:-120px;
+    vertical-align:bottom;
+    text-shadow: 3px 3px #ff0000;
 
 }
 header p {
     color: #80ff80;
     font-size: 25px;
-    margin-top: 0;
+    margin-top: 10;
 }
 section {
     text-align: center;
@@ -64,6 +76,20 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
+}
+#about div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 32em;
+    margin-bottom: auto;
+}
+#about h2 {
+    font-size: 70px;
+}
+#about p {
+    font-size:25px;
+    padding: 25px;
 }
 #faq {
     height: 100vh;
