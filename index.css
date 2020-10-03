@@ -42,13 +42,12 @@ header {
 }
 header h1 {
     color: #80ff80;
-    font-size: 30px;
-    font-variant: small-caps;
-    margin-bottom: -230;
+    font-size: 28px;
+    margin-bottom: -260;
     font-style: italic;
-    bottom: 30px;
     font-family: cursive;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
 }
 header h2 {
     color: #80ff80;
@@ -59,12 +58,13 @@ header h2 {
     bottom:-120px;
     vertical-align:bottom;
     text-shadow: 3px 3px #ff0000;
-
+    letter-spacing: 2px;
 }
 header p {
     color: #80ff80;
     font-size: 25px;
     margin-top: 10;
+    letter-spacing: 3px;
 }
 section {
     text-align: center;
@@ -86,10 +86,13 @@ section {
 }
 #about h2 {
     font-size: 70px;
+    color: yellow;
 }
 #about p {
     font-size:25px;
     padding: 25px;
+    background-color: white;
+    border-radius: 25px;
 }
 #faq {
     height: 100vh;
@@ -113,7 +116,6 @@ section {
     justify-content: center;
     padding: 15px;
     margin: 0px;
-
   }
   #developers ul a {
     height: 100px;
