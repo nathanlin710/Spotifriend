@@ -27,7 +27,6 @@ nav a:hover {
 }
 header {
     height: 100vh;    
-
     background: linear-gradient(to right, #a1d3b0, #f6f1d3);
     text-align: center;
     position: relative;
@@ -35,6 +34,10 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url('https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-18.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header h1 {
     color: #80ff80;
@@ -42,6 +45,7 @@ header h1 {
     margin-bottom: 0;
     font-weight: bold;
     top: 0;
+
 }
 header p {
     color: #80ff80;
@@ -50,19 +54,30 @@ header p {
 }
 section {
     text-align: center;
-    padding: 20px;
+    padding: 100px;
 }
 #about {
     height: 100vh;
-    background-color: red;
+    background-image: url('https://cdn.wallpapersafari.com/22/82/0yjurN.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #faq {
     height: 100vh;
-    background-color: purple;
+    color: white;
+    background-image: url('https://cutewallpaper.org/21/website-background-images-hd/Black-Website-Backgrounds-Wallpaper-Cave.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #developers {
     height: 100vh;
-    background-color: pink;
+    font-size: 50px;
+    background-image: url('https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #developers ul {
     list-style-type: none;
