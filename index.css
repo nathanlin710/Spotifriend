@@ -1,0 +1,38 @@
+body {
+    font-family: inherit;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    right: 0;
+    left: 0;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+header {
+    height: 100vh;
+    background-color: #3366ff;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    font-size: 100px;
+    margin-top: 0;
+}
+header p {
+    color: #80ff80;
+    font-size: 25px;
+    font-style: oblique;
+}
